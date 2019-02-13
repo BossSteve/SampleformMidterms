@@ -1,0 +1,83 @@
+body{
+	background:url("background.jpg")no-repeat 0 0 fixed;
+	height: 100%;
+	background-position: fixed;
+	background-size: cover;
+	opacity: .8;
+}
+.container{
+	background-color: black;
+	width: 500px;
+	height: 800px;
+	margin-left: 500px;
+	box-shadow: 10px 10px black;
+	border-color: black;
+	border-radius: 30px;
+}
+h1,h2{
+	font-family: Agency FB;
+}
+h1{
+	color:white;
+	font-weight: bold;
+	font-size: 35px;
+}
+h2{
+	font-family:Calibri;
+	font-size:18px;
+	color:white;
+}
+.textbox{
+	text-align: center;
+	margin-top:5px;
+	border-color: black;
+	border-radius: 10px;
+	width: 200px;
+	height:30px;
+}
+.radio_btn{
+	color:white;
+	font-size:18px;
+	font-family: arial;
+	font-weight: 5;
+}
+input[type="text"]
+{
+    font-size:16px;
+    color:#025e5b;
+}
+img{
+	float:left;
+	width:250px;
+	height: auto;
+}
+.Logo{
+	position:sticky;
+	margin-left:630px;
+	margin-bottom: 120px;
+}
+p{
+	color:white;
+	font-size:15px;
+}
+#link{
+	color:orange;
+}
+.btn{
+	margin-top:20px;
+	width: 150px;
+	background-color: gray;
+	color:black;
+	height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Calibri;
+	border-radius: 20px;
+}
+.btn:hover{
+	background-color:#084f61 ;
+	-webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 1s;
+	opacity: 0.8;
+	cursor: pointer;
+}
